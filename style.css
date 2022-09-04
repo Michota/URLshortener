@@ -1,0 +1,62 @@
+body {
+  background-color: #333349;
+  color: pink;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+}
+
+/* Link settings */
+a {
+  color: hotpink;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  color: pink;
+}
+
+/* Main container styling */
+.container {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Styles of page */
+
+.top {
+  text-align: center;
+}
+
+.mainContent {
+  margin-top: 25px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  border-radius: 10px;
+}
+
+.myBox {
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#URLbox {
+  width: 80%;
+  margin: 15px;
+}
+
+#shortButton {
+  width: 25%;
+  margin-bottom: 10px;
+}
