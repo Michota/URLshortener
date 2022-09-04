@@ -49,6 +49,7 @@ a:hover {
   margin: 10px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
+  font-size: 3vh;
 }
 
 #URLbox {
@@ -57,6 +58,18 @@ a:hover {
 }
 
 #shortButton {
-  width: 25%;
+  font-size: 3vh;
   margin-bottom: 10px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  color: #333349;
+}
+
+#results a {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
