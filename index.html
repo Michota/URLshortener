@@ -17,12 +17,14 @@
       <div class="mainContent">
         <div id="inputBox" class="myBox">
           <h2>Type URL that you want to short here</h2>
-          <input id="URLbox" type="url" placeholder="https://example.com/subpage.html" />
+          <input id="URLbox" type="url" value="https://github.com/Michota/urlshortener" placeholder="https://example.com/subpage.html" />
           <button id="shortButton">Make my link shorter</button>
         </div>
-        <div id="result" class="myBox">
-          <h2>Congratulations! Your shortened url is</h2>
-          <h3><a id="shortenedLink" href="xd.pl">xd.pl</a></h3>
+        <div id="results" class="myBox hidden">
+          <h2>Congratulations!</h2>
+          <h3>Shortened link: <a id="shortenedLink" onclick="copyText()" href="#">xd.pl</a></h3>
+          <h3>Another shortened link: <a id="shortenedLink3" onclick="copyText()" href="#">xd.pl</a></h3>
+          <h4>Original link: <a id="originalLink" onclick="copyText()" href="#">xd.pl</a></h4>
         </div>
       </div>
       <div class="footer"></div>
