@@ -6,11 +6,11 @@ A simple website made for cutting unnecessary part of URL and making it shorter.
 <img src="https://i.imgur.com/ho5PshL.gif" alt="Image">
 
 # TO DO
-🔶 Important
-🔸 store generated links in .localStorage
+🔶 Important<br>
+🔸 store generated links in .localStorage <br>
 
-🔷 Less important
-🔹 add "copied!" tooltip appear after clicking on link
-🔹 make new style for the page (simple, clean)
-🔹 make mobile version of the website
+🔷 Less important<br>
+🔹 add "copied!" tooltip appear after clicking on link<br>
+🔹 make new style for the page (simple, clean)<br>
+🔹 make mobile version of the website<br>
 🔹 create polish and russian language versions
