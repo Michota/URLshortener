@@ -6,28 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
+    <!--  -->
     <title>URL Shortener</title>
   </head>
   <body>
     <div class="container">
       <div class="top">
-        <div class="title"><h1>CYG4N's URL shortener</h1></div>
-        <div class="desc">A webpage created to make your url's shorter!</div>
+        <div class="title"><h1>URL shortener</h1></div>
+        <div class="desc">A webpage created to make your URL's shorter!</div>
       </div>
       <div class="mainContent">
         <div id="inputBox" class="myBox">
           <h2>Type URL that you want to short here</h2>
-          <input id="URLbox" type="url" value="https://github.com/Michota/urlshortener" placeholder="https://example.com/subpage.html" />
+          <input id="URLbox" type="url" placeholder="https://example.com/subpage.html" />
           <button id="shortButton">Make my link shorter</button>
         </div>
         <div id="results" class="myBox hidden">
-          <h2>Congratulations!</h2>
-          <h3>Shortened link: <a id="shortenedLink" onclick="copyText()" href="#">xd.pl</a></h3>
-          <h3>Another shortened link: <a id="shortenedLink3" onclick="copyText()" href="#">xd.pl</a></h3>
-          <h4>Original link: <a id="originalLink" onclick="copyText()" href="#">xd.pl</a></h4>
+          <h2>Click to copy!</h2>
+          <h3>Shortened link <br /><a id="shortenedLink" onclick="copyText(this)" href="#">xd.pl</a></h3>
+          <h3>Another shortened link <br /><a id="shortenedLink3" onclick="copyText(this)" href="#">xd.pl</a></h3>
+          <h4>Original link <br /><a id="originalLink" onclick="copyText(this)" href="#">xd.pl</a></h4>
         </div>
       </div>
-      <div class="footer"></div>
+      <div class="footer">
+        <p style="text-align: center; font-size: small">Made by <a href="https://github.com/Michota">Michota</a> with ❤</p>
+      </div>
     </div>
   </body>
 </html>
